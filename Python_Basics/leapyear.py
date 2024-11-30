@@ -1,5 +1,5 @@
 for i in range(1, 1000):
-    year = int(input("Enter a year: "))
+    year = input("Enter a year: ")
     if (year / 400) * 400 == year:
         print(f"{year} is a leap year")
     elif (year / 100) * 100 == year:
